@@ -1,6 +1,5 @@
 # Data
-jane-street-market-prediction/
-jane-street-market-prediction.zip
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
