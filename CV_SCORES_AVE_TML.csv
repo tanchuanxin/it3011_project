@@ -1,0 +1,470 @@
+workbook_name,model_name,model_params,utility,accuracy,logit_roc_auc,true_pos,true_neg,false_pos,false_neg,timestamp
+04_tml_cv_baseline_rng_no_na,RNG model,random,10.01054978,0.499876348,,,,,,6/4/2021 8:17
+04B_tml_cv_baseline_naive_bayes,Naive Bayes model,var_smoothing=1.0,91.79599473,0.504075823,0.510441885,2871.6,11208.8,2471.4,11381.3,6/4/2021 7:00
+04B_tml_cv_baseline_naive_bayes,Naive Bayes model,var_smoothing=0.001,89.32029569,0.507118809,0.512503321,3563.7,10601.7,3078.5,10689.2,6/4/2021 7:00
+04B_tml_cv_baseline_naive_bayes,Naive Bayes model,var_smoothing=1e-06,89.08706995,0.507111649,0.512494418,3564.7,10600.5,3079.7,10688.2,6/4/2021 7:00
+04B_tml_cv_baseline_naive_bayes,Naive Bayes model,var_smoothing=1e-09,89.08706995,0.507111649,0.512494418,3564.7,10600.5,3079.7,10688.2,6/4/2021 7:00
+04B_tml_cv_baseline_naive_bayes,Naive Bayes model,var_smoothing=1e-12,89.08706995,0.507111649,0.512494418,3564.7,10600.5,3079.7,10688.2,6/4/2021 7:00
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=best, max_feature=None",76.92129516,0.511876581,0.516589653,4064.6,10233.7,3446.5,10188.3,6/4/2021 7:11
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=best, max_feature=sqrt",47.82256623,0.518836065,0.514674581,10345.8,4146.9,9533.3,3907.1,6/4/2021 7:11
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=best, max_feature=log2",67.77484812,0.516015031,0.513940697,9265.5,5148.4,8531.8,4987.4,6/4/2021 7:12
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=random, max_feature=None",40.92602218,0.517980452,0.513489015,10867.3,3601.5,10078.7,3385.6,6/4/2021 7:12
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=random, max_feature=sqrt",21.98507917,0.511336001,0.503304091,12793.8,1489.4,12190.8,1459.1,6/4/2021 7:12
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=2, splitter=random, max_feature=log2",15.47923009,0.510491124,0.502341621,12982.9,1276.7,12403.5,1270,6/4/2021 7:12
+04E_tml_cv_baseline_linear_svm,Linear SVM model,iteration=100,15.13613797,0.501397957,0.501300549,7261,6744.6,6935.6,6991.9,6/4/2021 7:14
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=best, max_feature=None",95.19842522,0.515932676,0.519791742,4518.3,9893.3,3786.9,9734.6,6/4/2021 7:16
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=best, max_feature=sqrt",87.85022958,0.524338506,0.522889854,8610.5,6035.9,7644.3,5642.4,6/4/2021 7:17
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=best, max_feature=log2",112.861557,0.523626087,0.521693896,8884.2,5742.3,7937.9,5368.7,6/4/2021 7:17
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=random, max_feature=None",125.3093842,0.524001975,0.521314754,9328,5309,8371.2,4924.9,6/4/2021 7:18
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=random, max_feature=sqrt",33.29723836,0.513981575,0.507144546,12182.6,2174.5,11505.7,2070.3,6/4/2021 7:18
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=4, splitter=random, max_feature=log2",30.28571661,0.511769176,0.505463881,11703.2,2592.1,11088.1,2549.7,6/4/2021 7:18
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=liblinear, iteration=100",132.1801884,0.529601066,0.527428049,9039.9,5753.5,7926.7,5213,6/4/2021 7:23
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=best, max_feature=None",306.4244774,0.532579598,0.532172571,7922.9,6953.7,6726.5,6330,6/4/2021 7:26
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=best, max_feature=sqrt",408.9794883,0.540416186,0.540172182,7798.5,7297,6383.2,6454.4,6/4/2021 7:27
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=best, max_feature=log2",320.1384085,0.536947195,0.536005419,8280.2,6718.4,6961.8,5972.7,6/4/2021 7:28
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=random, max_feature=None",380.5771694,0.539793276,0.538550415,8404.4,6673.7,7006.5,5848.5,6/4/2021 7:28
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=random, max_feature=sqrt",49.73236329,0.520479292,0.516337776,10167.1,4371.5,9308.7,4085.8,6/4/2021 7:29
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=8, splitter=random, max_feature=log2",55.27610911,0.5185461,0.512734476,11247.9,3236.7,10443.5,3005,6/4/2021 7:29
+04E_tml_cv_baseline_linear_svm,Linear SVM model,iteration=500,38.48716064,0.514099805,0.512995116,8097.7,6262.7,7417.5,6155.2,6/4/2021 7:37
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=best, max_feature=None",731.6309413,0.571150311,0.571544144,7843.8,8110.2,5570,6409.1,6/4/2021 7:45
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=best, max_feature=sqrt",784.1062943,0.575249429,0.574776027,8497.9,7570.6,6109.6,5755,6/4/2021 7:46
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=best, max_feature=log2",654.0406291,0.561423551,0.561181815,8144.8,7537.5,6142.7,6108.1,6/4/2021 7:47
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=random, max_feature=None",713.8784801,0.569600251,0.569172014,8407.3,7503.4,6176.8,5845.6,6/4/2021 7:48
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=random, max_feature=sqrt",305.4457574,0.536646481,0.534856232,8903.2,6087,7593.2,5349.7,6/4/2021 7:48
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=16, splitter=random, max_feature=log2",229.7694826,0.531050957,0.52895508,9004.8,5829.1,7851.1,5248.1,6/4/2021 7:48
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=liblinear, iteration=10000",132.1801884,0.529601066,0.527428049,9039.9,5753.5,7926.7,5213,6/4/2021 7:51
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=sag, iteration=100",138.1028874,0.529701303,0.527503426,9058,5738.2,7942,5194.9,6/4/2021 7:58
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=best, max_feature=None",1440.954665,0.638590016,0.638716634,9017.6,8820.2,4860,5235.3,6/4/2021 8:12
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=best, max_feature=sqrt",987.1557673,0.591950077,0.591901809,8474.2,8060.8,5619.4,5778.7,6/4/2021 8:14
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=best, max_feature=log2",890.2429185,0.582810387,0.582748738,8350.3,7929.4,5750.8,5902.6,6/4/2021 8:15
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=random, max_feature=None",1200.187654,0.613354783,0.613191876,8833.8,8299.1,5381.1,5419.1,6/4/2021 8:16
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=random, max_feature=sqrt",630.6381277,0.562504656,0.562323591,8109.4,7603.1,6077.1,6143.5,6/4/2021 8:16
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=32, splitter=random, max_feature=log2",517.8664076,0.549101252,0.548677426,8113.3,7224.8,6455.4,6139.6,6/4/2021 8:17
+04E_tml_cv_baseline_linear_svm,Linear SVM model,iteration=1000,106.6167404,0.526031823,0.524207253,8753.1,5940.6,7739.6,5499.8,6/4/2021 8:20
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=2, max_feature=None",64.41671237,0.516691655,0.517964078,6583,7849.8,5830.4,7669.9,6/4/2021 8:33
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=2, max_feature=sqrt",83.5637152,0.525176207,0.520711966,10610,4059.8,9620.4,3642.9,6/4/2021 8:40
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=best, max_feature=None",1532.595369,0.648739272,0.648599839,9338.5,8782.8,4897.4,4914.4,6/4/2021 8:42
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=best, max_feature=sqrt",1083.438172,0.600051556,0.599880344,8669.9,8091.4,5588.8,5583,6/4/2021 8:44
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=best, max_feature=log2",915.761199,0.58462182,0.584488661,8427.7,7902.6,5777.6,5825.2,6/4/2021 8:45
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=2, max_feature=log2",77.34121657,0.526142802,0.522293898,10187.8,4509,9171.2,4065.1,6/4/2021 8:46
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=random, max_feature=None",1211.988883,0.619268925,0.619116396,8930.4,8367.7,5312.5,5322.5,6/4/2021 8:47
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=random, max_feature=sqrt",729.5498071,0.568229116,0.568069121,8204.9,7667.5,6012.7,6048,6/4/2021 8:47
+04C_tml_cv_baseline_decision_tree,Decision Tree model,"max_depth=64, splitter=random, max_feature=log2",556.4068538,0.556114445,0.555953104,8032.4,7501.6,6178.6,6220.5,6/4/2021 8:47
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=sag, iteration=1000",133.1751501,0.529776484,0.52760255,9043,5755.3,7924.9,5209.9,6/4/2021 9:10
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=4, max_feature=None",271.699491,0.533932857,0.532633254,8512.7,6401.7,7278.5,5740.2,6/4/2021 11:28
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=sag, iteration=10000",130.6931174,0.529558105,0.527384009,9039.8,5752.4,7927.8,5213.1,6/4/2021 11:42
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=4, max_feature=sqrt",165.134255,0.535604692,0.531369925,10525.4,4435.7,9244.5,3727.5,6/4/2021 11:43
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=saga, iteration=100",129.2666763,0.529554525,0.527327304,9076.3,5715.8,7964.4,5176.6,6/4/2021 11:50
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=4, max_feature=log2",137.74475,0.533832611,0.529557741,10558.8,4352.8,9327.4,3694.1,6/4/2021 11:52
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=liblinear, iteration=1000",132.1801884,0.529601066,0.527428049,9039.9,5753.5,7926.7,5213,6/4/2021 14:23
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=70, var_smoothing=1.0",84.89285855,0.52258791,0.520481316,9046.6,5550.9,8129.3,5206.3,6/4/2021 14:26
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=70, var_smoothing=0.001",64.36133666,0.506309741,0.5130119,2651,11491.8,2188.4,11601.9,6/4/2021 14:26
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=70, var_smoothing=1e-06",59.3131222,0.505207104,0.512166864,2455.5,11656.5,2023.7,11797.4,6/4/2021 14:26
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=70, var_smoothing=1e-09",59.28398309,0.505199944,0.512159962,2455.2,11656.6,2023.6,11797.7,6/4/2021 14:26
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=70, var_smoothing=1e-12",59.28398309,0.505199944,0.512159962,2455.2,11656.6,2023.6,11797.7,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=90, var_smoothing=1.0",86.74988467,0.52271679,0.520536073,9100,5501.1,8179.1,5152.9,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=90, var_smoothing=0.001",75.19451102,0.510480432,0.515974971,3552.7,10706.6,2973.6,10700.2,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=90, var_smoothing=1e-06",59.07024417,0.508336021,0.514061887,3369.1,10830.3,2849.9,10883.8,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=90, var_smoothing=1e-09",59.11333818,0.508343181,0.514069257,3369,10830.6,2849.6,10883.9,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=90, var_smoothing=1e-12",59.11333818,0.508343181,0.514069257,3369,10830.6,2849.6,10883.9,6/4/2021 14:27
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=110, var_smoothing=1.0",87.61345083,0.522831349,0.520637776,9111.5,5492.8,8187.4,5141.4,6/4/2021 14:28
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=110, var_smoothing=0.001",84.16733699,0.511787127,0.51684024,3907.4,10388.4,3291.8,10345.5,6/4/2021 14:28
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=110, var_smoothing=1e-06",50.84114643,0.506134327,0.512601728,2883.6,11254.3,2425.9,11369.3,6/4/2021 14:28
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=110, var_smoothing=1e-09",50.68525514,0.506037668,0.512512792,2876.5,11258.7,2421.5,11376.4,6/4/2021 14:28
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=110, var_smoothing=1e-12",50.68525514,0.506037668,0.512512792,2876.5,11258.7,2421.5,11376.4,6/4/2021 14:28
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=130, var_smoothing=1.0",87.2875688,0.522795549,0.520596576,9114.9,5488.4,8191.8,5138,6/4/2021 14:29
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=130, var_smoothing=0.001",82.94648823,0.512710763,0.517356702,4211.8,10109.8,3570.4,10041.1,6/4/2021 14:29
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=130, var_smoothing=1e-06",45.59179099,0.508984006,0.513824134,4108.8,10108.7,3571.5,10144.1,6/4/2021 14:29
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=130, var_smoothing=1e-09",45.58033672,0.508887346,0.513750257,4091.1,10123.7,3556.5,10161.8,6/4/2021 14:29
+05B_tml_cv_pca_naive_bayes,Naive Bayes model PCA,"pca_n_components=130, var_smoothing=1e-12",45.58033672,0.508887346,0.513750257,4091.1,10123.7,3556.5,10161.8,6/4/2021 14:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=best, max_feature=None",20.81922792,0.517461344,0.50938761,12875.4,1578.9,12101.3,1377.5,6/4/2021 14:48
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=best, max_feature=sqrt",56.29402628,0.513015032,0.507832094,11043.8,3286.3,10393.9,3209.1,6/4/2021 14:48
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=best, max_feature=log2",29.13240217,0.512932686,0.509251997,9830.4,4497.4,9182.8,4422.5,6/4/2021 14:48
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=random, max_feature=None",18.55738787,0.510594932,0.502239167,13229.6,1032.9,12647.3,1023.3,6/4/2021 14:48
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=random, max_feature=sqrt",12.27854021,0.510272744,0.500072531,14222.4,31.1,13649.1,30.5,6/4/2021 14:48
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=2, splitter=random, max_feature=log2",16.83038102,0.510458904,0.500527121,14063.3,195.4,13484.8,189.6,6/4/2021 14:48
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=lbfgs, iteration=100",127.8963453,0.530492478,0.528274845,9085.7,5732.6,7947.6,5167.2,6/4/2021 18:17
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=70, iteration=100",8.307528194,0.500141396,0.499943433,7313.3,6657.2,7023,6939.6,6/4/2021 14:50
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=best, max_feature=None",94.73098092,0.524302683,0.523552897,8045.4,6600,7080.2,6207.5,6/4/2021 14:50
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=best, max_feature=sqrt",61.60658201,0.517021027,0.51426431,9172.7,5269.3,8410.9,5080.2,6/4/2021 14:51
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=best, max_feature=log2",41.8540145,0.515814546,0.512107255,9834.5,4573.8,9106.4,4418.4,6/4/2021 14:51
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=random, max_feature=None",25.20139608,0.513473261,0.508113077,10880.2,3462.7,10217.5,3372.7,6/4/2021 14:51
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=random, max_feature=sqrt",23.27671036,0.510022158,0.501956694,13127.7,1118.8,12561.4,1125.2,6/4/2021 14:51
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=4, splitter=random, max_feature=log2",11.14734839,0.510276315,0.502169314,12969.2,1284.4,12395.8,1283.7,6/4/2021 14:51
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=lbfgs, iteration=1000",129.4371491,0.530725177,0.528505667,9089.9,5734.9,7945.3,5163,6/4/2021 18:20
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=lbfgs, iteration=10000",129.4371491,0.530725177,0.528505667,9089.9,5734.9,7945.3,5163,6/4/2021 18:22
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=liblinear, iteration=100",129.8161531,0.530735915,0.528516816,9089.9,5735.2,7945,5163,6/4/2021 16:00
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=best, max_feature=None",172.4476048,0.528917285,0.527441426,8614.4,6159.9,7520.3,5638.5,6/4/2021 14:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=best, max_feature=sqrt",112.3187299,0.52371916,0.522040348,8757.2,5871.9,7808.3,5495.7,6/4/2021 14:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=best, max_feature=log2",92.99446726,0.52162128,0.519007773,9123.8,5446.7,8233.5,5129.1,6/4/2021 14:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=random, max_feature=None",88.52143236,0.522562825,0.519242084,9613.7,4983.1,8697.1,4639.2,6/4/2021 14:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=random, max_feature=sqrt",28.0973132,0.512134329,0.504211196,12697.3,1608.2,12072,1555.6,6/4/2021 14:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=8, splitter=random, max_feature=log2",12.97292847,0.511747693,0.502790715,13367.8,926.9,12753.3,885.1,6/4/2021 14:57
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=liblinear, iteration=1000",129.8161531,0.530735915,0.528516816,9089.9,5735.2,7945,5163,6/4/2021 16:04
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=liblinear, iteration=10000",129.8161531,0.530735915,0.528516816,9089.9,5735.2,7945,5163,6/4/2021 16:09
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=sag, iteration=100",126.8318907,0.530610616,0.528391172,9089.3,5732.3,7947.9,5163.6,6/4/2021 16:16
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=sag, iteration=1000",129.7112226,0.530725176,0.528505715,9090.1,5734.7,7945.5,5162.8,6/4/2021 16:36
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=best, max_feature=None",263.184616,0.533721639,0.532711869,8334.2,6574.3,7105.9,5918.7,6/4/2021 15:03
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=sag, iteration=10000",129.7112226,0.530725176,0.528505715,9090.1,5734.7,7945.5,5162.8,7/4/2021 3:44
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=best, max_feature=sqrt",158.545536,0.527044969,0.526027797,8199.5,6522.5,7157.7,6053.4,6/4/2021 15:04
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=best, max_feature=log2",187.2773171,0.527567637,0.52617061,8475.7,6260.9,7419.3,5777.2,6/4/2021 15:05
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=random, max_feature=None",192.9217743,0.530209669,0.528842849,8500.2,6310.2,7370,5752.7,6/4/2021 15:05
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=random, max_feature=sqrt",35.35310951,0.518370686,0.513755039,10554.8,3924.9,9755.3,3698.1,6/4/2021 15:05
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=16, splitter=random, max_feature=log2",22.70043665,0.512889731,0.507997849,10852.9,3473.7,10206.5,3400,6/4/2021 15:05
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=saga, iteration=100",132.6189359,0.530460258,0.52822568,9096.9,5720.5,7959.7,5156,6/4/2021 17:02
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=saga, iteration=1000",129.0316387,0.530746656,0.528527208,9090.4,5735,7945.2,5162.5,6/4/2021 17:39
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=110, solver=saga, iteration=10000",129.0316387,0.530746656,0.528527208,9090.4,5735,7945.2,5162.5,6/4/2021 18:16
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=best, max_feature=None",275.7306046,0.531179849,0.530963254,7713.8,7123.7,6556.5,6539.1,6/4/2021 15:15
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=liblinear, iteration=100",132.1206487,0.529583166,0.527410396,9039.4,5753.5,7926.7,5213.5,6/4/2021 18:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=best, max_feature=log2",170.6881687,0.524195309,0.523948968,7642.9,6999.5,6680.7,6610,6/4/2021 15:17
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=random, max_feature=None",187.2039745,0.526848085,0.526618655,7667,7049.5,6630.7,6585.9,6/4/2021 15:18
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=random, max_feature=sqrt",90.76868063,0.523393385,0.521553391,8661.5,5958.5,7721.7,5591.4,6/4/2021 15:18
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=random, max_feature=log2",96.80140636,0.519666615,0.517989726,8586.3,5929.6,7750.6,5666.6,6/4/2021 15:18
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=liblinear, iteration=1000",132.1206487,0.529583166,0.527410396,9039.4,5753.5,7926.7,5213.5,6/4/2021 18:52
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=best, max_feature=None",274.0224741,0.531416146,0.531260877,7679.8,7164.3,6515.9,6573.1,6/4/2021 15:27
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=best, max_feature=sqrt",162.777878,0.524159517,0.523986802,7588.4,7053,6627.2,6664.5,6/4/2021 15:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=best, max_feature=log2",199.2206448,0.522616545,0.522382005,7602.1,6996.2,6684,6650.8,6/4/2021 15:30
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=random, max_feature=None",205.809693,0.527431616,0.527241017,7648.9,7083.9,6596.3,6604,6/4/2021 15:31
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=random, max_feature=sqrt",127.9448705,0.518972118,0.518761226,7539.6,6956.9,6723.3,6713.3,6/4/2021 15:31
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=64, splitter=random, max_feature=log2",148.7997744,0.522269279,0.522100841,7566.1,7022.5,6657.7,6686.8,6/4/2021 15:31
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=best, max_feature=None",20.81922792,0.517461344,0.50938761,12875.4,1578.9,12101.3,1377.5,6/4/2021 15:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=best, max_feature=sqrt",45.89722492,0.512574688,0.508366855,9816.3,4501.5,9178.7,4436.6,6/4/2021 15:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=best, max_feature=log2",32.77892765,0.513662994,0.508282393,10914.1,3434.1,10246.1,3338.8,6/4/2021 15:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=random, max_feature=None",16.9746672,0.511078243,0.501860682,13665.4,610.6,13069.6,587.5,6/4/2021 15:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=random, max_feature=sqrt",11.97829431,0.510877763,0.500741711,14172.1,98.3,13581.9,80.8,6/4/2021 15:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=2, splitter=random, max_feature=log2",10.2287855,0.510355084,0.500178576,14210.9,44.9,13635.3,42,6/4/2021 15:33
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=70, iteration=1000",123.7586147,0.524521066,0.522752226,8735.4,5916.1,7764.1,5517.5,6/4/2021 15:35
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=best, max_feature=None",96.00769282,0.524549703,0.523836592,8019.7,6632.6,7047.6,6233.2,6/4/2021 15:36
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=best, max_feature=sqrt",73.6609262,0.518044917,0.51429007,10169.3,4301.3,9378.9,4083.6,6/4/2021 15:36
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=best, max_feature=log2",30.70697221,0.51526683,0.509926021,10921.2,3471.8,10208.4,3331.7,6/4/2021 15:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=random, max_feature=None",30.83795349,0.514092617,0.510122665,10134.6,4225.6,9454.6,4118.3,6/4/2021 15:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=random, max_feature=sqrt",13.24431192,0.510881344,0.501498985,13603.2,667.3,13012.9,649.7,6/4/2021 15:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=4, splitter=random, max_feature=log2",13.91044374,0.511088983,0.501486263,13552.7,723.6,12956.6,700.2,6/4/2021 15:37
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=liblinear, iteration=10000",132.1206487,0.529583166,0.527410396,9039.4,5753.5,7926.7,5213.5,6/4/2021 19:07
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=best, max_feature=None",145.521994,0.528799147,0.527183416,8768.3,6002.7,7677.5,5484.6,6/4/2021 15:42
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=best, max_feature=sqrt",107.747222,0.524445902,0.522393724,8916.4,5733,7947.2,5336.5,6/4/2021 15:43
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=best, max_feature=log2",102.7165629,0.521846831,0.518509132,9666.9,4909.9,8770.3,4586,6/4/2021 15:43
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=random, max_feature=None",67.91126595,0.5201535,0.516855364,9628.2,4901.3,8778.9,4624.7,6/4/2021 15:44
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=random, max_feature=sqrt",29.54752692,0.511103309,0.503964789,12433.6,1843.1,11837.1,1819.3,6/4/2021 15:44
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=8, splitter=random, max_feature=log2",12.77426198,0.511683259,0.502661784,13430.6,862.3,12817.9,822.3,6/4/2021 15:44
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=saga, iteration=1000",134.998292,0.529880303,0.527704706,9045.5,5755.7,7924.5,5207.4,6/4/2021 15:46
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=best, max_feature=None",240.6979619,0.532991296,0.532000327,8290.2,6597.9,7082.3,5962.7,6/4/2021 15:52
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=sag, iteration=100",137.8950482,0.529722783,0.527525626,9058.1,5738.7,7941.5,5194.8,6/4/2021 19:15
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=best, max_feature=log2",182.9424216,0.525383866,0.524812294,7955.3,6720.3,6959.9,6297.6,6/4/2021 15:54
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=random, max_feature=None",118.1470292,0.528666683,0.526882219,8784.7,5982.6,7697.6,5468.2,6/4/2021 15:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=random, max_feature=sqrt",45.46397006,0.51576086,0.510763389,10773.8,3633,10047.2,3479.1,6/4/2021 15:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=random, max_feature=log2",65.46989442,0.515048466,0.508632988,11757.5,2629.4,11050.8,2495.4,6/4/2021 15:55
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=sag, iteration=1000",133.1205415,0.529780064,0.527606191,9043,5755.4,7924.8,5209.9,6/4/2021 20:32
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=lbfgs, iteration=100",137.3805332,0.529303922,0.526918851,9182.4,5602.7,8077.5,5070.5,6/4/2021 15:02
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=best, max_feature=None",296.7061194,0.529611826,0.529342413,7729.6,7064.1,6616.1,6523.3,6/4/2021 16:06
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=best, max_feature=sqrt",192.8399715,0.52511177,0.524859148,7661.1,7006.9,6673.3,6591.8,6/4/2021 16:08
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=best, max_feature=log2",97.03660517,0.521639212,0.521357366,7629.5,6941.5,6738.7,6623.4,6/4/2021 16:09
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=lbfgs, iteration=1000",137.3805332,0.529303922,0.526918851,9182.4,5602.7,8077.5,5070.5,6/4/2021 15:03
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=random, max_feature=None",229.9268704,0.527939955,0.527592122,7780.6,6966.4,6713.8,6472.3,6/4/2021 16:10
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=random, max_feature=sqrt",108.1715808,0.521141562,0.519549753,8448.3,6108.8,7571.4,5804.6,6/4/2021 16:10
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=32, splitter=random, max_feature=log2",111.410017,0.519623665,0.517520908,8980.7,5534,8146.2,5272.2,6/4/2021 16:10
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=lbfgs, iteration=10000",137.3805332,0.529303922,0.526918851,9182.4,5602.7,8077.5,5070.5,6/4/2021 15:04
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=best, max_feature=None",262.2590119,0.528834968,0.528634592,7664.2,7107.8,6572.4,6588.7,6/4/2021 16:22
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=best, max_feature=sqrt",195.5160036,0.522609371,0.522430565,7577.5,7020.6,6659.6,6675.4,6/4/2021 16:24
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=best, max_feature=log2",135.4617914,0.520697676,0.520518088,7547.8,6996.9,6683.3,6705.1,6/4/2021 16:25
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=random, max_feature=None",164.5906184,0.526425638,0.526235684,7628.1,7076.6,6603.6,6624.8,6/4/2021 16:26
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=random, max_feature=sqrt",66.25084484,0.518392162,0.518202303,7526.4,6953.9,6726.3,6726.5,6/4/2021 16:26
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=64, splitter=random, max_feature=log2",81.38711424,0.516365905,0.516129972,7510.5,6913.2,6767,6742.4,6/4/2021 16:26
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=best, max_feature=None",20.81922792,0.517461344,0.50938761,12875.4,1578.9,12101.3,1377.5,6/4/2021 16:28
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=best, max_feature=sqrt",17.255754,0.511153386,0.50541537,11746,2532.1,11148.1,2506.9,6/4/2021 16:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=best, max_feature=log2",15.19638757,0.512803801,0.504879857,12697.1,1627.1,12053.1,1555.8,6/4/2021 16:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=random, max_feature=None",15.1372535,0.511260822,0.502442777,13224,1057.1,12623.1,1028.9,6/4/2021 16:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=random, max_feature=sqrt",14.13501525,0.511160581,0.501951378,13397.4,880.9,12799.3,855.5,6/4/2021 16:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=2, splitter=random, max_feature=log2",11.92406332,0.510383724,0.500255662,14166.5,90.1,13590.1,86.4,6/4/2021 16:29
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=best, max_feature=None",97.78957009,0.524778823,0.524044304,8038.7,6620,7060.2,6214.2,6/4/2021 16:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=best, max_feature=sqrt",56.15357567,0.516616478,0.513032389,9876.2,4554.5,9125.7,4376.7,6/4/2021 16:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=best, max_feature=log2",29.59675855,0.515904061,0.510430884,11029.5,3381.3,10298.9,3223.4,6/4/2021 16:33
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=random, max_feature=None",25.25971904,0.512198782,0.505825521,11465.5,2841.8,10838.4,2787.4,6/4/2021 16:34
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=random, max_feature=sqrt",19.21625173,0.510859862,0.502129049,12970.2,1299.7,12380.5,1282.7,6/4/2021 16:34
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=4, splitter=random, max_feature=log2",18.33070431,0.510960105,0.50213481,13074.2,1198.5,12481.7,1178.7,6/4/2021 16:34
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=liblinear, iteration=100",134.3972266,0.529260963,0.526873415,9183.3,5600.6,8079.6,5069.6,7/4/2021 3:18
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=best, max_feature=None",143.9019644,0.529536619,0.527929428,8689.9,6101.7,7578.5,5563,6/4/2021 16:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=best, max_feature=sqrt",103.0713371,0.523744233,0.520418965,9808.1,4821.7,8858.5,4444.8,6/4/2021 16:41
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=best, max_feature=log2",78.22961119,0.519000763,0.514737325,10184,4313.3,9366.9,4068.9,6/4/2021 16:41
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=random, max_feature=None",73.30103279,0.52105922,0.517652648,9830.8,4724,8956.2,4422.1,6/4/2021 16:42
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=random, max_feature=sqrt",21.71093496,0.51296848,0.504212627,12953.2,1375.6,12304.6,1299.7,6/4/2021 16:42
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=8, splitter=random, max_feature=log2",16.81649735,0.510931458,0.501385279,13748,523.9,13156.3,504.9,6/4/2021 16:42
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=best, max_feature=None",201.5252857,0.530875545,0.530202516,8001.4,6827.6,6852.6,6251.5,6/4/2021 16:53
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=best, max_feature=sqrt",153.6773825,0.526823016,0.525639921,8350,6365.8,7314.4,5902.9,6/4/2021 16:54
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=best, max_feature=log2",111.7835974,0.52602825,0.524319362,8711.4,5982.2,7698,5541.5,6/4/2021 16:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=random, max_feature=None",217.3669628,0.529776492,0.528317236,8539.7,6258.6,7421.6,5713.2,6/4/2021 16:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=random, max_feature=sqrt",18.50944618,0.514941042,0.509763327,10782.8,3601.1,10079.1,3470.1,6/4/2021 16:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=16, splitter=random, max_feature=log2",15.78169948,0.513856303,0.506484963,12372.4,1981.2,11699,1880.5,6/4/2021 16:56
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=liblinear, iteration=1000",136.8183084,0.529332562,0.526947063,9182.7,5603.2,8077,5070.2,6/4/2021 14:49
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=best, max_feature=None",230.9993789,0.528577205,0.528374612,7666.9,7097.9,6582.3,6586,6/4/2021 17:11
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=best, max_feature=sqrt",152.6971057,0.521760919,0.52149296,7610.9,6963.5,6716.7,6642,6/4/2021 17:13
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=best, max_feature=log2",152.2972012,0.519992421,0.519730811,7577.5,6947.5,6732.7,6675.4,6/4/2021 17:14
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=random, max_feature=None",164.2521874,0.527456659,0.527121934,7736.1,6997.4,6682.8,6516.8,6/4/2021 17:16
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=random, max_feature=sqrt",68.60990896,0.5196165,0.517619057,8808.6,5705.9,7974.3,5444.3,6/4/2021 17:16
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=32, splitter=random, max_feature=log2",56.29162272,0.518807414,0.516196683,9161.8,5330.1,8350.1,5091.1,6/4/2021 17:16
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=4, max_feature=None",175.0459665,0.530678629,0.528524464,9071.9,5751.6,7928.6,5181,6/4/2021 17:23
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=best, max_feature=None",221.9930928,0.527599872,0.527420892,7643.7,7093.8,6586.4,6609.2,6/4/2021 17:32
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=best, max_feature=sqrt",134.6796389,0.522677404,0.522523798,7558.5,7041.5,6638.7,6694.4,6/4/2021 17:34
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=4, max_feature=sqrt",130.5359762,0.52846621,0.522776576,11414,3347.7,10332.5,2838.9,6/4/2021 17:34
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=best, max_feature=log2",70.73507652,0.519111721,0.518931886,7515.8,6984.6,6695.6,6737.1,6/4/2021 17:35
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=random, max_feature=None",159.5759014,0.524105804,0.523877649,7619.8,7020.1,6660.1,6633.1,6/4/2021 17:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=random, max_feature=sqrt",53.13495028,0.514321733,0.514147369,7441.3,6925.3,6754.9,6811.6,6/4/2021 17:37
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=110, max_depth=64, splitter=random, max_feature=log2",101.8608663,0.515553245,0.515217046,7585.3,6815.7,6864.5,6667.6,6/4/2021 17:37
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=liblinear, iteration=10000",134.3972266,0.529260963,0.526873415,9183.3,5600.6,8079.6,5069.6,7/4/2021 3:20
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=best, max_feature=None",20.81922792,0.517461344,0.50938761,12875.4,1578.9,12101.3,1377.5,6/4/2021 17:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=best, max_feature=sqrt",20.52962303,0.511557974,0.506337369,10721.4,3568,10112.2,3531.5,6/4/2021 17:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=best, max_feature=log2",29.08671898,0.511207115,0.506317484,11009.9,3269.7,10410.5,3243,6/4/2021 17:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=random, max_feature=None",23.02497129,0.510856288,0.50370465,12459.8,1810,11870.2,1793.1,6/4/2021 17:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=random, max_feature=sqrt",12.41402094,0.510075845,0.500135443,14074,174,13506.2,178.9,6/4/2021 17:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=2, splitter=random, max_feature=log2",11.97158009,0.510272744,0.500040255,14240.3,13.2,13667,12.6,6/4/2021 17:40
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=4, max_feature=log2",98.64819684,0.52611416,0.519630197,11958.4,2737.6,10942.6,2294.5,6/4/2021 17:43
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=best, max_feature=None",97.78957009,0.524778823,0.524044304,8038.7,6620,7060.2,6214.2,6/4/2021 17:45
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=best, max_feature=sqrt",51.91888484,0.515821718,0.512649312,9518.9,4889.6,8790.6,4734,6/4/2021 17:45
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=best, max_feature=log2",31.97912146,0.515571115,0.511751736,10165.9,4235.6,9444.6,4087,6/4/2021 17:46
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=random, max_feature=None",54.40551072,0.514869443,0.510199188,10665.4,3716.5,9963.7,3587.5,6/4/2021 17:46
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=random, max_feature=sqrt",15.47414622,0.510290642,0.502038901,12861.4,1392.6,12287.6,1391.5,6/4/2021 17:46
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=4, splitter=random, max_feature=log2",12.47148686,0.511024546,0.501607937,13580.1,694.4,12985.8,672.8,6/4/2021 17:46
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=best, max_feature=None",140.0643936,0.529550941,0.527966772,8673,6119,7561.2,5579.9,6/4/2021 17:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=best, max_feature=sqrt",56.5853349,0.524288401,0.521811691,9178.5,5466.5,8213.7,5074.4,6/4/2021 17:55
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=best, max_feature=log2",78.37427244,0.518449425,0.516290937,8792.5,5689.4,7990.8,5460.4,6/4/2021 17:56
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=random, max_feature=None",60.3687901,0.521359942,0.519337105,8923.4,5639.8,8040.4,5329.5,6/4/2021 17:57
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=random, max_feature=sqrt",14.04676743,0.511507844,0.50251305,13347.6,940.4,12739.8,905.3,6/4/2021 17:57
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=8, splitter=random, max_feature=log2",15.15931146,0.510372985,0.500879529,13754.2,502.1,13178.1,498.7,6/4/2021 17:57
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=best, max_feature=None",231.860883,0.533714468,0.532539217,8407.1,6501.2,7179,5845.8,6/4/2021 18:12
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=best, max_feature=sqrt",150.3785057,0.524954283,0.523540663,8464,6199.6,7480.6,5788.9,6/4/2021 18:13
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=best, max_feature=log2",125.9809685,0.523260951,0.522042313,8318,6298.3,7381.9,5934.9,6/4/2021 18:14
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=random, max_feature=None",139.1392659,0.529729953,0.527947559,8786.4,6010.6,7669.6,5466.5,6/4/2021 18:15
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=sag, iteration=100",136.8448762,0.529343302,0.526957771,9182.9,5603.3,8076.9,5070,6/4/2021 14:52
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=sag, iteration=1000",136.8229315,0.529343302,0.526957615,9183,5603.2,8077,5069.9,6/4/2021 14:53
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=sag, iteration=10000",136.8312925,0.529332562,0.526947072,9182.7,5603.2,8077,5070.2,6/4/2021 14:54
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=saga, iteration=100",134.4938121,0.529275283,0.526887371,9183.7,5600.6,8079.6,5069.2,7/4/2021 3:23
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=best, max_feature=None",275.7419907,0.52798293,0.527721629,7703.8,7044.4,6635.8,6549.1,6/4/2021 18:35
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=best, max_feature=sqrt",153.1781084,0.523178576,0.522962839,7595.1,7018.9,6661.3,6657.8,6/4/2021 18:36
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=saga, iteration=1000",136.8346802,0.529336142,0.526950576,9182.8,5603.2,8077,5070.1,6/4/2021 14:59
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=best, max_feature=log2",121.2872289,0.520880228,0.520577992,7630.1,6919.7,6760.5,6622.8,6/4/2021 18:38
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=random, max_feature=None",187.4982345,0.526533057,0.526275626,7700.5,7007.2,6673,6552.4,6/4/2021 18:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=random, max_feature=sqrt",77.74306978,0.520536556,0.518771489,8660.6,5879.6,7800.6,5592.3,6/4/2021 18:40
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=32, splitter=random, max_feature=log2",61.14270185,0.517300262,0.514691545,9235.2,5214.6,8465.6,5017.7,6/4/2021 18:40
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=70, solver=saga, iteration=10000",136.8396329,0.529339722,0.526954115,9182.9,5603.2,8077,5070,6/4/2021 15:02
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=best, max_feature=None",270.984049,0.527968605,0.527773849,7650.7,7097.1,6583.1,6602.2,6/4/2021 18:59
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=best, max_feature=sqrt",167.185068,0.521263321,0.521095833,7546.4,7014.1,6666.1,6706.5,6/4/2021 19:01
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=best, max_feature=log2",115.5051453,0.518406465,0.518219667,7516.4,6964.3,6715.9,6736.5,6/4/2021 19:02
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=random, max_feature=None",266.7436012,0.526046162,0.525853711,7625.2,7068.9,6611.3,6627.7,6/4/2021 19:04
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=random, max_feature=sqrt",64.0346573,0.515875429,0.515688433,7470.5,6939.5,6740.7,6782.4,6/4/2021 19:05
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=64, splitter=random, max_feature=log2",54.24825136,0.515134364,0.514705143,7633.8,6755.5,6924.7,6619.1,6/4/2021 19:05
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=lbfgs, iteration=1000",128.2939665,0.529597485,0.52731721,9116.1,5677.2,8003,5136.8,6/4/2021 15:53
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=lbfgs, iteration=10000",128.2481345,0.529618966,0.527339954,9115.6,5678.3,8001.9,5137.3,7/4/2021 3:25
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=8, max_feature=None",726.094955,0.568630037,0.567093342,9142.1,6741.5,6938.7,5110.8,6/4/2021 19:56
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=saga, iteration=10000",130.6027511,0.529565265,0.527391331,9039.7,5752.7,7927.5,5213.2,6/4/2021 19:57
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=lbfgs, iteration=100",140.1515631,0.529919681,0.527757896,9036.3,5766,7914.2,5216.6,6/4/2021 19:59
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=lbfgs, iteration=1000",130.0555211,0.529658343,0.527486621,9040.1,5754.9,7925.3,5212.8,6/4/2021 20:06
+04A_tml_cv_baseline_logistic_regression,Logistic Regression model,"solver=lbfgs, iteration=10000",130.0555211,0.529658343,0.527486621,9040.1,5754.9,7925.3,5212.8,6/4/2021 20:14
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=8, max_feature=sqrt",675.2450557,0.569600199,0.567638521,9464.4,6446.3,7233.9,4788.5,6/4/2021 20:25
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=liblinear, iteration=100",128.3140471,0.529661925,0.527381833,9116.4,5678.7,8001.5,5136.5,6/4/2021 15:06
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=8, max_feature=log2",583.7351349,0.563736195,0.561446363,9617.6,6129.3,7550.9,4635.3,6/4/2021 20:43
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=8, max_feature=None",360.5680611,0.546695465,0.544796142,9102.3,6168.6,7511.6,5150.6,6/4/2021 20:45
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=70, iteration=10000",125.4729259,0.529167884,0.526785522,9178.3,5603,8077.2,5074.6,6/4/2021 20:51
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=70, iteration=500",53.82198624,0.515123628,0.513386113,8534.8,5854.2,7826,5718.1,7/4/2021 3:31
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=8, max_feature=sqrt",310.3546514,0.543351775,0.540035068,10023.4,5154.1,8526.1,4229.5,6/4/2021 21:08
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=90, iteration=100",8.366601066,0.501197484,0.501207195,7149.3,6850.7,6829.5,7103.6,6/4/2021 20:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=8, max_feature=log2",314.6946203,0.541773004,0.537951959,10341.8,4791.6,8888.6,3911.1,6/4/2021 21:25
+04E_tml_cv_baseline_linear_svm,Linear SVM model,iteration=10000,130.9025238,0.529529462,0.527338689,9048.8,5742.6,7937.6,5204.1,6/4/2021 21:28
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=90, max_depth=16, splitter=best, max_feature=sqrt",188.5688819,0.52841252,0.527101817,8490.6,6269.6,7410.6,5762.3,7/4/2021 3:06
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=liblinear, iteration=1000",128.3140471,0.529661925,0.527381833,9116.4,5678.7,8001.5,5136.5,6/4/2021 15:09
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=random, max_feature=None",155.008756,0.527317048,0.526204443,8262.9,6466.7,7213.5,5990,7/4/2021 3:19
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=130, max_depth=16, splitter=random, max_feature=log2",25.05790736,0.511547219,0.504784305,12130.4,2158.7,11521.5,2122.5,7/4/2021 3:19
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=liblinear, iteration=10000",128.3140471,0.529661925,0.527381833,9116.4,5678.7,8001.5,5136.5,6/4/2021 15:11
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=sag, iteration=100",128.3082667,0.529651186,0.52737136,9116.1,5678.7,8001.5,5136.8,6/4/2021 15:16
+05C_tml_cv_pca_decision_tree,Decision Tree model PCA,"pca_n_components=70, max_depth=32, splitter=best, max_feature=sqrt",166.0434942,0.525365972,0.525098435,7664.6,7010.5,6669.7,6588.3,7/4/2021 3:24
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=sag, iteration=1000",128.2995693,0.529647606,0.527367694,9116.1,5678.6,8001.6,5136.8,6/4/2021 15:21
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=90, iteration=1000",98.39010893,0.523944692,0.522240029,8668.8,5966.6,7713.6,5584.1,7/4/2021 4:02
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=sag, iteration=10000",128.3278999,0.529654766,0.527374858,9116.2,5678.7,8001.5,5136.7,6/4/2021 15:25
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=saga, iteration=100",129.5331815,0.529633286,0.527350376,9118.1,5676.2,8004,5134.8,6/4/2021 15:32
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=90, iteration=500",105.8750489,0.517389737,0.516532048,7954.1,6498.2,7182,6298.8,6/4/2021 21:14
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=saga, iteration=1000",129.2513782,0.529676245,0.527395762,9116.9,5678.6,8001.6,5136,6/4/2021 15:41
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=saga, iteration=10000",129.2622771,0.529679825,0.527399059,9117.1,5678.5,8001.7,5135.8,6/4/2021 15:51
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=2, max_feature=None",23.9505411,0.518864698,0.511387544,12486.2,2007.3,11672.9,1766.7,7/4/2021 6:10
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=2, max_feature=sqrt",32.60763963,0.516720301,0.508180816,13203.6,1230,12450.2,1049.3,7/4/2021 6:14
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=2, max_feature=log2",24.30626769,0.514694022,0.50541161,13679.7,697.3,12982.9,573.2,7/4/2021 6:18
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=90, solver=lbfgs, iteration=100",128.1755218,0.529583165,0.527302481,9116.2,5676.7,8003.5,5136.7,7/4/2021 7:47
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=sag, iteration=10000",130.6783769,0.529561685,0.527387831,9039.7,5752.6,7927.6,5213.2,7/4/2021 9:59
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=saga, iteration=100",129.1991889,0.529525886,0.527297747,9076.6,5714.7,7965.5,5176.3,7/4/2021 10:06
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=16, max_feature=None",729.0956224,0.573581156,0.572234233,9096.2,6925.7,6754.5,5156.7,7/4/2021 10:12
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=16, max_feature=sqrt",613.8804487,0.565189688,0.563428265,9266.7,6520.8,7159.4,4986.2,7/4/2021 10:41
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=50, max_depth=16, max_feature=log2",643.8004917,0.563199203,0.561213554,9388.1,6343.8,7336.4,4864.8,7/4/2021 11:03
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=saga, iteration=1000",134.9961763,0.529880303,0.527704825,9045.4,5755.8,7924.4,5207.5,7/4/2021 11:13
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=16, max_feature=None",1724.054002,0.66179904,0.661657957,9526.8,8959.3,4720.9,4726.1,7/4/2021 13:07
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=16, max_feature=sqrt",1589.715504,0.651656993,0.650803336,9873.4,8329.4,5350.8,4379.5,7/4/2021 13:44
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=50, max_depth=16, max_feature=log2",1459.859174,0.63626309,0.63531148,9728.3,8044.5,5635.7,4524.6,7/4/2021 14:08
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=saga, iteration=10000",130.3243423,0.529601064,0.527427166,9040.2,5753.2,7927,5212.7,8/4/2021 0:09
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=lbfgs, iteration=100",139.8287378,0.529883881,0.527719879,9036.9,5764.4,7915.8,5216,8/4/2021 0:11
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=lbfgs, iteration=1000",132.3058975,0.529554523,0.527378134,9041.4,5750.7,7929.5,5211.5,8/4/2021 0:19
+05A_tml_cv_pca_logistic_regression,Logistic Regression model PCA,"pca_n_components=130, solver=lbfgs, iteration=10000",132.3058975,0.529554523,0.527378134,9041.4,5750.7,7929.5,5211.5,8/4/2021 0:26
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=90, iteration=10000",132.6316632,0.529729941,0.52745036,9115.8,5681.2,7999,5137.1,8/4/2021 1:20
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=110, iteration=100",26.56669517,0.503850284,0.503766515,7187.1,6887,6793.2,7065.8,8/4/2021 1:24
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=110, iteration=500",62.39890526,0.513623589,0.51291647,7828.4,6518.7,7161.5,6424.5,8/4/2021 1:44
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=110, iteration=1000",104.7419443,0.526042572,0.524119866,8827.4,5866.6,7813.6,5425.5,8/4/2021 3:51
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=2, max_feature=None",23.75179118,0.518896923,0.512046162,12151.4,2343,11337.2,2101.5,8/4/2021 7:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=2, max_feature=sqrt",32.01933559,0.516781156,0.508622983,12938.3,1497,12183.2,1314.6,8/4/2021 7:57
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=2, max_feature=log2",22.82985808,0.51538853,0.5066734,13256.8,1139.6,12540.6,996.1,8/4/2021 7:58
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=2, max_feature=None",68.51812556,0.515878992,0.51754183,6245.1,8165,5515.2,8007.8,8/4/2021 8:02
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=2, max_feature=sqrt",66.02990725,0.524589085,0.519962642,10614.8,4038.6,9641.6,3638.1,8/4/2021 8:03
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=2, max_feature=log2",56.78908501,0.524535387,0.519970263,10666,3985.9,9694.3,3586.9,8/4/2021 8:04
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=4, max_feature=None",176.3099741,0.529869546,0.527640392,9123.3,5677.6,8002.6,5129.6,8/4/2021 8:16
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=4, max_feature=sqrt",85.78576986,0.527112977,0.522052771,11008.6,3715.3,9964.9,3244.3,8/4/2021 8:18
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=4, max_feature=log2",79.8471647,0.524496016,0.5183169,11700,2950.8,10729.4,2552.9,8/4/2021 8:20
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=4, max_feature=None",255.802489,0.534831416,0.533349789,8625.1,6314.4,7365.8,5627.8,8/4/2021 8:34
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=4, max_feature=sqrt",174.2377206,0.535160781,0.531570803,10038.4,4910.3,8769.9,4214.5,8/4/2021 8:37
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=4, max_feature=log2",130.9951954,0.532923282,0.528792694,10420,4466.2,9214,3832.9,8/4/2021 8:39
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=8, max_feature=None",341.7472209,0.543724091,0.541861145,9023,6164.9,7515.3,5229.9,8/4/2021 8:53
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=8, max_feature=sqrt",258.1749527,0.538823104,0.535801858,9761.1,5289.9,8390.3,4491.8,8/4/2021 8:57
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=8, max_feature=log2",244.2392997,0.538064152,0.534848333,9845.2,5184.6,8495.6,4407.7,8/4/2021 9:00
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=8, max_feature=None",657.3349127,0.562937873,0.561590061,8949.4,6775.2,6905,5303.5,8/4/2021 9:37
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=8, max_feature=sqrt",626.0944721,0.564502312,0.562704621,9282,6486.3,7193.9,4970.9,8/4/2021 9:42
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=8, max_feature=log2",538.5233053,0.559250476,0.557243569,9351.1,6270.5,7409.7,4901.8,8/4/2021 9:45
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=16, max_feature=None",512.2570136,0.551392444,0.550423999,8525,6877.1,6803.1,5727.9,8/4/2021 9:53
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=16, max_feature=sqrt",433.1455288,0.545614328,0.544320642,8667,6573.7,7106.5,5585.9,8/4/2021 9:59
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=10, max_depth=16, max_feature=log2",430.933324,0.544139401,0.542827601,8651.4,6548.1,7132.1,5601.5,8/4/2021 10:04
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=2, max_feature=None",19.11635545,0.518202403,0.510819887,12438.6,2036.4,11643.8,1814.3,8/4/2021 10:31
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=2, max_feature=sqrt",34.94818323,0.516777566,0.508595914,13054,1381.2,12299,1198.9,8/4/2021 10:35
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=2, max_feature=log2",28.65694207,0.514371822,0.504975034,13735.7,632.3,13047.9,517.2,8/4/2021 10:37
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=4, max_feature=None",166.0773522,0.530564069,0.528426514,9056.2,5764.1,7916.1,5196.7,8/4/2021 11:30
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=16, max_feature=sqrt",1265.646069,0.616247367,0.615594939,9236,7977.7,5702.5,5016.9,8/4/2021 11:34
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=4, max_feature=sqrt",108.422311,0.528122532,0.52245792,11422.4,3329.7,10350.5,2830.5,8/4/2021 11:37
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=16, max_feature=log2",1118.68935,0.604863018,0.604069834,9161.6,7734.1,5946.1,5091.3,8/4/2021 11:39
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=4, max_feature=log2",100.9276461,0.524707223,0.518236335,11903.3,2753.4,10926.8,2349.6,8/4/2021 11:42
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=2, max_feature=None",70.21678763,0.517812192,0.518563974,6841.9,7622.2,6058,7411,8/4/2021 12:25
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=2, max_feature=sqrt",65.91385202,0.524288367,0.520357096,10270.5,4374.5,9305.7,3982.4,8/4/2021 12:29
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=2, max_feature=log2",68.63404181,0.524628457,0.520795413,10108.6,4545.9,9134.3,4144.3,8/4/2021 12:32
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=110, iteration=10000",127.6129729,0.530309897,0.528088286,9085.5,5727.7,7952.5,5167.4,8/4/2021 14:39
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=130, iteration=100",15.13613797,0.501397957,0.501300549,7261,6744.6,6935.6,6991.9,8/4/2021 14:44
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=130, iteration=500",38.48716064,0.514099805,0.512995116,8097.7,6262.7,7417.5,6155.2,8/4/2021 15:06
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=130, iteration=1000",106.6167404,0.526031823,0.524207253,8753.1,5940.6,7739.6,5499.8,8/4/2021 15:48
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=4, max_feature=None",278.962998,0.534469844,0.533015218,8610.6,6318.8,7361.4,5642.3,8/4/2021 17:35
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=4, max_feature=sqrt",145.5457535,0.535672716,0.531492116,10497.8,4465.2,9215,3755.1,8/4/2021 17:43
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=4, max_feature=log2",137.1648758,0.534580815,0.530210525,10627.6,4304.9,9375.3,3625.3,8/4/2021 17:48
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=8, max_feature=None",334.4789347,0.546731266,0.544856583,9087.2,6184.7,7495.5,5165.7,8/4/2021 17:52
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=8, max_feature=sqrt",305.5439511,0.542413817,0.539146882,9984.3,5167,8513.2,4268.6,8/4/2021 18:04
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=8, max_feature=log2",313.8592531,0.541057,0.537225367,10343.4,4770,8910.2,3909.5,8/4/2021 18:13
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=8, max_feature=None",711.5906968,0.566929539,0.565297941,9176.5,6659.6,7020.6,5076.4,8/4/2021 20:32
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=8, max_feature=sqrt",668.0503752,0.568544098,0.566612675,9434.1,6447.1,7233.1,4818.8,8/4/2021 20:46
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=8, max_feature=log2",553.3471116,0.562354314,0.560044699,9598.1,6110.2,7570,4654.8,8/4/2021 20:55
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=16, max_feature=None",678.6336833,0.568440306,0.567166593,8973.4,6904.9,6775.3,5279.5,8/4/2021 20:57
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=16, max_feature=sqrt",572.403329,0.560166961,0.558469713,9143.2,6504,7176.2,5109.7,8/4/2021 21:17
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=70, n_estimators=30, max_depth=16, max_feature=log2",499.6720977,0.55775046,0.555953757,9192.4,6387.3,7292.9,5060.5,8/4/2021 21:33
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=2, max_feature=None",31.09019574,0.519269244,0.511893966,12378,2126.8,11553.4,1874.9,8/4/2021 21:45
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=2, max_feature=sqrt",34.95865936,0.516061577,0.507494662,13215.2,1200,12480.2,1037.7,8/4/2021 21:47
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=2, max_feature=log2",17.9374994,0.513534109,0.504174278,13699,645.6,13034.6,553.9,8/4/2021 21:48
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=4, max_feature=None",148.632794,0.530155956,0.52796172,9056.8,5752.1,7928.1,5196.1,8/4/2021 22:12
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=4, max_feature=sqrt",70.96093828,0.525143989,0.519600127,11274.5,3394.4,10285.8,2978.4,8/4/2021 22:14
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=4, max_feature=log2",63.28868968,0.522809858,0.516191802,12011.7,2592,11088.2,2241.2,8/4/2021 22:16
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=8, max_feature=None",341.7139978,0.542635773,0.540845137,8959.2,6198.3,7481.9,5293.7,9/4/2021 9:37
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=8, max_feature=sqrt",248.5622593,0.537813556,0.534590667,9872.5,5150.3,8529.9,4380.4,9/4/2021 9:40
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=8, max_feature=log2",170.476814,0.534953138,0.530853909,10412.4,4530.5,9149.7,3840.5,9/4/2021 9:43
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=16, max_feature=None",487.1362573,0.550296949,0.549300039,8522.9,6848.6,6831.6,5730,9/4/2021 10:38
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=16, max_feature=sqrt",416.4753251,0.544884016,0.543510083,8718.4,6501.9,7178.3,5534.5,9/4/2021 10:44
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=10, max_depth=16, max_feature=log2",338.1891438,0.541565366,0.540186855,8678.9,6448.7,7231.5,5574,9/4/2021 10:48
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=2, max_feature=None",21.21949989,0.51863558,0.511007141,12605.7,1881.4,11798.8,1647.2,9/4/2021 11:16
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=2, max_feature=sqrt",34.78933965,0.514654629,0.505664292,13529.7,846.2,12834,723.2,9/4/2021 11:19
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=2, max_feature=log2",22.21440517,0.512825262,0.503102501,13969.2,355.6,13324.6,283.7,9/4/2021 11:21
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=4, max_feature=None",165.5046996,0.53053185,0.52831287,9096.5,5722.9,7957.3,5156.4,9/4/2021 12:13
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=4, max_feature=sqrt",108.4946933,0.526719181,0.520707545,11640.7,3072.2,10608,2612.2,9/4/2021 12:19
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=4, max_feature=log2",76.59257598,0.523758533,0.516641704,12335.4,2294.8,11385.4,1917.5,9/4/2021 12:23
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=16, max_feature=None",1683.03333,0.659722711,0.659579554,9511.1,8917,4763.2,4741.8,9/4/2021 13:43
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=8, max_feature=None",354.7002052,0.547110747,0.545212988,9102,6180.5,7499.7,5150.9,9/4/2021 14:04
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=16, max_feature=sqrt",1520.877399,0.643942138,0.643144068,9730.4,8256.9,5423.3,4522.5,9/4/2021 14:05
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=8, max_feature=sqrt",299.3256049,0.542256301,0.538701478,10173.4,4973.5,8706.7,4079.5,9/4/2021 14:15
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=30, max_depth=16, max_feature=log2",1338.676008,0.627828629,0.626862824,9607.3,7929.9,5750.3,4645.6,9/4/2021 14:19
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=8, max_feature=log2",247.6950916,0.539292074,0.534982332,10665.9,4398.2,9282,3587,9/4/2021 14:22
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=16, max_feature=None",637.9786349,0.567094216,0.565806404,8970.7,6870,6810.2,5282.2,9/4/2021 21:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=16, max_feature=sqrt",509.3902116,0.55762518,0.55586285,9156.9,6419.3,7260.9,5096,9/4/2021 22:17
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=30, max_depth=16, max_feature=log2",505.9850188,0.555563114,0.553600809,9263,6255.6,7424.6,4989.9,9/4/2021 22:31
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=2, max_feature=None",24.50282668,0.518299065,0.510631612,12594,1883.7,11796.5,1658.9,9/4/2021 23:29
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=2, max_feature=sqrt",30.82325451,0.515703583,0.506738654,13501.1,904.1,12776.1,751.8,9/4/2021 23:35
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=2, max_feature=log2",15.85258214,0.511905213,0.50193877,14101,198.1,13482.1,151.9,9/4/2021 23:39
+04D_tml_cv_baseline_random_forest,Random Forest model,"n_estimators=10, max_depth=16, max_feature=None",1438.699744,0.634777386,0.634791407,9043.2,8688.1,4992.1,5209.7,10/4/2021 3:33
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=4, max_feature=None",152.9652906,0.530854053,0.528576245,9127.4,5701,7979.2,5125.5,10/4/2021 3:37
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=4, max_feature=sqrt",122.8052698,0.52756406,0.521602412,11608.4,3128.1,10552.1,2644.5,10/4/2021 3:48
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=4, max_feature=log2",55.92266759,0.523719153,0.516431773,12489.9,2139.2,11541,1763,10/4/2021 3:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=8, max_feature=None",358.6275305,0.547483071,0.545591575,9105.1,6187.8,7492.4,5147.8,10/4/2021 13:58
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=8, max_feature=sqrt",319.7940715,0.542582081,0.539072998,10131,5025,8655.2,4121.9,10/4/2021 14:23
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=8, max_feature=log2",267.8075234,0.540591623,0.536215387,10710.2,4390.2,9290,3542.7,10/4/2021 14:40
+05E_tml_cv_pca_linear_svm,Linear SVM model PCA,"pca_n_components=130, iteration=10000",130.9025238,0.529529462,0.527338689,9048.8,5742.6,7937.6,5204.1,10/4/2021 15:02
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=16, max_feature=None",726.7077889,0.573226735,0.571819646,9128,6884,6796.2,5124.9,10/4/2021 21:16
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=16, max_feature=sqrt",612.42699,0.563857927,0.561939876,9353.8,6396.5,7283.7,4899.1,11/4/2021 3:08
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=90, n_estimators=50, max_depth=16, max_feature=log2",563.3622759,0.56072544,0.558545293,9488.1,6174.7,7505.5,4764.8,11/4/2021 3:33
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=2, max_feature=None",25.67573305,0.518184506,0.511134739,12175.4,2299.1,11381.1,2077.5,11/4/2021 3:47
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=2, max_feature=sqrt",19.93501868,0.515356325,0.50642599,13468.6,926.9,12753.3,784.3,11/4/2021 3:49
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=2, max_feature=log2",17.75256243,0.512288276,0.502755864,13836.7,473.1,13207.1,416.2,11/4/2021 3:50
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=4, max_feature=None",168.8351005,0.529626112,0.52706509,9353.6,5440.5,8239.7,4899.3,11/4/2021 4:17
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=4, max_feature=sqrt",91.19490751,0.524428001,0.518603158,11498.5,3150.4,10529.8,2754.4,11/4/2021 4:20
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=4, max_feature=log2",70.5068889,0.522072355,0.515080062,12207.2,2375.9,11304.3,2045.7,11/4/2021 4:21
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=8, max_feature=None",296.843599,0.542535536,0.540608495,9062.4,6092.3,7587.9,5190.5,11/4/2021 5:12
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=8, max_feature=sqrt",211.1353368,0.535887521,0.53231337,10087.7,4881.3,8798.9,4165.2,11/4/2021 5:17
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=8, max_feature=log2",162.2447918,0.533836191,0.529567652,10523.9,4387.8,9292.4,3729,11/4/2021 5:20
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=16, max_feature=None",509.9665753,0.552606039,0.55165411,8527.5,6908.5,6771.7,5725.4,11/4/2021 6:42
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=16, max_feature=sqrt",378.6648519,0.540430518,0.539072867,8640.5,6455.4,7224.8,5612.4,11/4/2021 6:50
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=10, max_depth=16, max_feature=log2",258.445116,0.538457941,0.536823571,8802.2,6238.6,7441.6,5450.7,11/4/2021 6:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=2, max_feature=None",24.41200095,0.517987605,0.510622207,12452.7,2016.3,11663.9,1800.2,11/4/2021 7:38
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=2, max_feature=sqrt",37.99948244,0.515306198,0.506132133,13597.2,796.9,12883.3,655.7,11/4/2021 7:42
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=2, max_feature=log2",15.78043947,0.512069897,0.502096758,14105.6,198.1,13482.1,147.3,11/4/2021 7:44
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=None",21.66305173,0.518828894,0.511400817,12385.7,2106.8,11573.4,1867.2,11/4/2021 13:54
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=sqrt",22.30050271,0.515137946,0.506347111,13386.4,1003,12677.2,866.5,11/4/2021 13:55
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=log2",14.5092029,0.512631955,0.50284666,13959.6,359.8,13320.4,293.3,11/4/2021 13:57
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=4, max_feature=None",155.6538833,0.529554514,0.527474744,9033.3,5758.8,7921.4,5219.6,11/4/2021 14:29
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=4, max_feature=sqrt",95.70681588,0.525491254,0.519339294,11686.6,2992,10688.2,2566.3,11/4/2021 14:32
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=4, max_feature=log2",73.25301143,0.522405301,0.515543526,12229.4,2363,11317.2,2023.5,11/4/2021 14:34
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=4, max_feature=None",164.69802,0.530925652,0.528736986,9114.8,5715.6,7964.6,5138.1,11/4/2021 14:52
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=4, max_feature=sqrt",103.7518306,0.526096264,0.519840071,11817.6,2877.9,10802.3,2435.3,11/4/2021 15:00
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=4, max_feature=log2",73.0896244,0.521743004,0.514060725,12723.3,1850.6,11829.6,1529.6,11/4/2021 15:04
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=8, max_feature=None",333.0734392,0.542020028,0.540127122,9006.8,6133.5,7546.7,5246.1,11/4/2021 15:34
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=8, max_feature=sqrt",230.8513213,0.536639298,0.533221046,10007.4,4982.6,8697.6,4245.5,11/4/2021 15:40
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=8, max_feature=log2",164.3302029,0.53324191,0.529106059,10462.5,4432.6,9247.6,3790.4,11/4/2021 15:43
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=16, max_feature=None",459.122393,0.550193129,0.549160934,8549.8,6818.8,6861.4,5703.1,11/4/2021 17:23
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=8, max_feature=None",330.8579996,0.545882817,0.544018552,9058.4,6189.8,7490.4,5194.5,11/4/2021 17:25
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=16, max_feature=sqrt",345.1931301,0.542002134,0.540590628,8702.4,6437.4,7242.8,5550.5,11/4/2021 17:32
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=8, max_feature=sqrt",292.5695762,0.541708561,0.538087478,10228.1,4903.5,8776.7,4024.8,11/4/2021 17:38
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=8, max_feature=log2",204.3984093,0.537072475,0.532293672,10954.2,4047.9,9632.3,3298.7,11/4/2021 17:46
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=2, max_feature=None",25.51717443,0.518492385,0.511173739,12332.3,2150.8,11529.4,1920.6,11/4/2021 18:28
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=2, max_feature=sqrt",27.87335853,0.514246528,0.504873917,13726,638.5,13041.7,526.9,11/4/2021 18:32
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=2, max_feature=log2",16.55603217,0.512094957,0.502091653,14121.5,182.9,13497.3,131.4,11/4/2021 18:35
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=4, max_feature=None",154.0366278,0.53071801,0.528458582,9135.7,5688.9,7991.3,5117.2,11/4/2021 20:13
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=4, max_feature=sqrt",86.25215045,0.525262123,0.51874727,11912.2,2760,10920.2,2340.7,11/4/2021 20:22
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=4, max_feature=log2",54.77130821,0.519713151,0.511789458,12894.6,1622.6,12057.6,1358.3,12/4/2021 2:33
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=8, max_feature=None",396.4110405,0.547551097,0.545638743,9116.6,6178.2,7502,5136.3,12/4/2021 4:54
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=8, max_feature=sqrt",294.9813653,0.540573709,0.536766906,10314.2,4785.7,8894.5,3938.7,12/4/2021 5:07
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=8, max_feature=log2",285.643596,0.539080857,0.53436284,10915,4143.2,9537,3337.9,12/4/2021 5:15
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=16, max_feature=None",651.1216517,0.566020215,0.564738661,8953,6857.7,6822.5,5299.9,12/4/2021 6:15
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=16, max_feature=sqrt",498.0818272,0.557213471,0.555419935,9184.8,6379.9,7300.3,5068.1,12/4/2021 6:34
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=30, max_depth=16, max_feature=log2",440.9611633,0.550705057,0.5485829,9315.5,6067.4,7612.8,4937.4,12/4/2021 6:47
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=2, max_feature=None",22.78553286,0.517966126,0.510396575,12530.6,1937.8,11742.4,1722.3,12/4/2021 7:43
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=2, max_feature=sqrt",32.56711061,0.513895685,0.504595463,13748.7,606,13074.2,504.2,12/4/2021 7:48
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=2, max_feature=log2",15.20253179,0.511898055,0.501788346,14185.8,113.1,13567.1,67.1,12/4/2021 7:52
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=16, max_feature=None",636.5713892,0.565271991,0.563956105,8952.6,6837.2,6843,5300.3,12/4/2021 9:18
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=16, max_feature=sqrt",550.6943145,0.554234924,0.552377424,9176.2,6305.3,7374.9,5076.7,12/4/2021 9:40
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=4, max_feature=None",166.8734065,0.530664312,0.528439336,9111,5712.1,7968.1,5141.9,12/4/2021 9:50
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=30, max_depth=16, max_feature=log2",460.4302641,0.550737273,0.548567613,9338.9,6044.9,7635.3,4914,12/4/2021 9:55
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=4, max_feature=sqrt",100.501449,0.525659504,0.51938199,11805.5,2877.8,10802.4,2447.4,12/4/2021 10:02
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=4, max_feature=log2",61.0038027,0.522068788,0.514071901,12899.2,1683.8,11996.4,1353.7,12/4/2021 10:09
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=2, max_feature=None",20.72055598,0.518352764,0.510815045,12530.8,1948.4,11731.8,1722.1,12/4/2021 11:01
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=2, max_feature=sqrt",17.61924321,0.5136773,0.504022063,13882.9,465.7,13214.5,370,12/4/2021 11:07
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=2, max_feature=log2",12.27940367,0.511586596,0.501461013,14188.8,101.4,13578.8,64.1,12/4/2021 11:11
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=4, max_feature=None",169.6441012,0.530882689,0.528779579,9058.5,5770.7,7909.5,5194.4,12/4/2021 13:17
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=4, max_feature=sqrt",106.8066332,0.526418467,0.519880164,12003.1,2701.4,10978.8,2249.8,12/4/2021 13:28
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=4, max_feature=log2",49.8758143,0.520343244,0.512087164,13018.6,1516.2,12164,1234.3,12/4/2021 13:35
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=8, max_feature=None",382.4854665,0.547078528,0.54521375,9085.5,6196.1,7484.1,5167.4,12/4/2021 13:56
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=8, max_feature=sqrt",303.9003934,0.543240802,0.539558052,10269.2,4905.2,8775,3983.7,12/4/2021 14:19
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=8, max_feature=log2",229.5762615,0.539277763,0.534575606,10937.3,4126.4,9553.8,3315.6,12/4/2021 15:44
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=8, max_feature=None",352.4014673,0.547107174,0.545214379,9096.6,6185.8,7494.4,5156.3,12/4/2021 20:21
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=8, max_feature=sqrt",283.9542179,0.542675168,0.538721766,10460.5,4698.1,8982.1,3792.4,12/4/2021 20:44
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=16, max_feature=None",674.440988,0.571887817,0.570510717,9098.7,6875.9,6804.3,5154.2,12/4/2021 20:50
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=8, max_feature=log2",245.1535755,0.539399477,0.53476569,10876.1,4191,9489.2,3376.8,12/4/2021 20:59
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=16, max_feature=sqrt",622.2552818,0.564470108,0.5625012,9394.5,6372.9,7307.3,4858.4,12/4/2021 21:20
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=110, n_estimators=50, max_depth=16, max_feature=log2",523.2381649,0.556622791,0.554296275,9524.2,6024,7656.2,4728.7,12/4/2021 21:39
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=None",29.04280905,0.518725084,0.511365694,12365.5,2124.1,11556.1,1887.4,12/4/2021 21:51
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=sqrt",23.37908502,0.516272785,0.508083256,12866.7,1554.4,12125.8,1386.2,12/4/2021 21:52
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=2, max_feature=log2",20.2000642,0.51285034,0.50319831,13828.6,496.9,13183.3,424.3,12/4/2021 21:52
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=10, max_depth=4, max_feature=None",185.3156379,0.529987708,0.527856012,9032.8,5771.4,7908.8,5220.1,12/4/2021 22:14
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=16, max_feature=log2",542.8488809,0.557993908,0.55556941,9610.9,5975.6,7704.6,4642,13/4/2021 16:30
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=16, max_feature=sqrt",587.0603461,0.560353123,0.558309063,9386.9,6265.5,7414.7,4866,13/4/2021 17:08
+05D_tml_cv_pca_random_forest,Random Forest model PCA,"pca_n_components=130, n_estimators=50, max_depth=16, max_feature=None",676.5885843,0.571454643,0.570041662,9112,6850.5,6829.7,5140.9,15/4/2021 7:09
