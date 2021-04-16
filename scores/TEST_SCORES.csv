@@ -1,0 +1,4 @@
+workbook_name,model_name,model_params,utility,accuracy,logit_roc_auc,true_pos,true_neg,false_pos,false_neg,timestamp
+06_tml_test_rng,RNG model,random,662.6082534,0.500279454,,,,,,14/4/2021 17:34
+06_tml_test_best_model,Best Model - Random Forest no PCA,"n_estimators=50, max_depth=16, max_feature=None",1599.608341,0.51332773,0.514078396,30318,31365,26874,31606,14/4/2021 18:26
+13_nndl_test_best_model,Best Model - MLP2,"batch_size=256, hidden_unit=[400, 800, 1600, 800], activation=<function tanh at 0x7f395d2a2950>, dropout_rate=[0.2, 0.2, 0.2, 0.2], learning_rate=0.0001, epoch=2000",1474.707667,0.506695073,0.506780692,31209,29677,28562,30715,16/4/2021 2:23
