@@ -12,6 +12,7 @@ ACTIVE
 12_nndl_cv_mlp2 - notebooks using neural networks and deep learning, with cross validation (different model without dropout on input layer)
 13_nndl_test - evaluating the best model obtained through cross validation among neural networks, on the actual test set
 data - contains the csv files with data
+presentations - for presentations and report
 results_nndl - folder with the figures and histories and model checkpoints for neural networks
 scores - folder with the output scores from every model that we trained, both TML and NNDL
 
