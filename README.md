@@ -2,6 +2,13 @@
 
 Jane Street Market Prediction - https://www.kaggle.com/c/jane-street-market-prediction
 
+This is the README file for A0228402N-A0230521Y-A0230632U submission.
+We are contactable through the following:
+
+- A0228402N at e0673235@u.nus.edu
+- A0230521Y at e0697782@u.nus.edu
+- A0230632U at e0698539@u.nus.edu
+
 # Running the notebooks
 
 Notebooks are found in the folders with two digits at the front. To run any of the notebooks, please pull them into the root directory to get access to necessary files and directory structure. Also mount the drive accordingly within the notebook.
