@@ -16,17 +16,12 @@ Notebooks are found in the folders with two digits at the front. To run any of t
 ### Mounting drive
 
 In the second code block of every notebook, you will see the following:
-`
-''' used to reference the root directory, for directory traversal '''
 
-from google.colab import drive
-
-drive.mount('/content/gdrive', force_remount=True)
-
-mount_dir = '/content/gdrive'
-
-root_dir = Path('/content/gdrive/My Drive/it3011_project')
-`
+    ''' used to reference the root directory, for directory traversal '''
+    from google.colab import drive
+    drive.mount('/content/gdrive', force_remount=True)
+    mount_dir = '/content/gdrive'
+    root_dir = Path('/content/gdrive/My Drive/it3011_project')
 
 Please amend the `root_dir` path to your google drive path, if different.
 
